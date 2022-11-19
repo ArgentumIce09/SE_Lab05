@@ -1,4 +1,4 @@
-/*Education programm*/
+/*Education program */
 #include <iostream>
 
 using namespace std;
