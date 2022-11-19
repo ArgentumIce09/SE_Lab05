@@ -1,4 +1,4 @@
-/*Программа является учебной*/
+/*Education programm*/
 #include <iostream>
 
 using namespace std;
