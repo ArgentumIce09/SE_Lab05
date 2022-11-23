@@ -11,7 +11,7 @@ int main()
     cin >> a >> b;
 
     cout << "A + B = " << a + b << endl; // Addition
-    cout << "A - B = " << a - b << endl;
+    cout << "A - B = " << a - b << endl; // Subtraction
     cout << "A * B = " << a * b << endl; // Multiplication
     cout << "A / B = " << a / b << endl; // Division
 }
