@@ -1,14 +1,15 @@
 /*Education program */
 #include <iostream>
-
+//#include "sdt.h"
 using namespace std;
 
 int main()
 {
     int a, b;
-    cout << "Enter two integer numbers" << endl;
+    cout << "Enter A and B: " << endl;
     cin >> a >> b;
-    int c;
-    c = a + b;
-    cout << "a + b = " << c << endl;
+
+    cout << "A + B = " << a + b << endl;
+    cout << "A - B = " << a - b << endl;
+    cout << "A * B = " << a * b << endl;
 }
