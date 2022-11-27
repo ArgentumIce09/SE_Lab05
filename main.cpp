@@ -21,11 +21,13 @@ int main()
     T=2*v*sin(alpha)/g;
     cout << "Enter time t = " <<  endl;
     cin >> t;
+
     cout << "*** Coordinates body *** " << endl;
     x=v*t*cos(alpha);
     y=v*t*sin(alpha)-g*t*t/2;
     cout << "x = " << x << endl;
     cout << "y = " << y << endl;
+    cout << "Body flight time = " << T << endl;
 
     return 0;
 }
