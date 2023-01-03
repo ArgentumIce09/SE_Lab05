@@ -1,5 +1,5 @@
 
-/* +++++ Education program +++++ */
+/* ++++ Education program ++++ */
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -9,7 +9,7 @@ const double pi = 3.141;
 double v, alpha, T; // velocity, angle, time
 double t, x, y; // Moment time, coordinates body
 
-
+/* ++++ Education program ++++ */
 int main()
 {
     system("chcp 1251>nul");
