@@ -18,7 +18,7 @@ int main()
     cout << "Введите угол альфа = " << endl;
     cin >> alpha;
     alpha = alpha*pi/180;
-    T=2*v*sin(alpha)/g;
+    T=2*v*sin(alpha)/g; // Вычисление
     cout << "Введите время t = " <<  endl;
     cin >> t;
 
