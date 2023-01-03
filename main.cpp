@@ -12,7 +12,7 @@ double t, x, y; // Moment time, coordinates body
 
 int main()
 {
-
+    system("chcp 1251>nul");
     cout << "Enter speed v = " << endl;
     cin >> v;
     cout << "Enter angle alpha = " << endl;
