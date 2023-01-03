@@ -13,21 +13,21 @@ double t, x, y; // Moment time, coordinates body
 int main()
 {
     system("chcp 1251>nul");
-    cout << "Enter speed v = " << endl;
+    cout << "Введите скорость  v = " << endl;
     cin >> v;
-    cout << "Enter angle alpha = " << endl;
+    cout << "Введите угол альфа = " << endl;
     cin >> alpha;
     alpha = alpha*pi/180;
     T=2*v*sin(alpha)/g;
-    cout << "Enter time t = " <<  endl;
+    cout << "Введите время t = " <<  endl;
     cin >> t;
 
-    cout << "*** Coordinates body *** " << endl;
+    cout << "*** Координаты тела *** " << endl;
     x=v*t*cos(alpha);
     y=v*t*sin(alpha)-g*t*t/2;
     cout << "x = " << x << endl;
     cout << "y = " << y << endl;
-    cout << "Body flight time = " << T << endl;
+    cout << "Время полета тела = " << T << endl;
 
     return 0;
 }
