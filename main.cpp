@@ -32,8 +32,8 @@ int main()
 	cout << "¬ведите два целочисленных числа" << endl;
 	cin >> a >> b;
 
-	c = a * b;
-	cout << "a * b = " << c << endl;
+	c = a / b;
+	cout << "a / b = " << c << endl;
 
     return 0;
 }
